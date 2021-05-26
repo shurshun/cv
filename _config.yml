@@ -168,13 +168,41 @@ content:
   - title: Сертификаты
     layout: text
     content: |
-      * [GitLab Certified Associate](https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ)
+      * **GitLab Certified Associate**: [approved](https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ)
+      * **Certified Kubernetes Security Specialist**: в процессе получения
+      * **AWS Certified Solutions Architect Associate**: в процессе получения
 
-  - title: Summary
+  - title: Языки
     layout: text
     content: |
-      English: B1-B2. Беру частные уроки, постоянно совершенствую свои скиллы
+      **English**: B1-B2. Беру частные уроки, постоянно совершенствую языковые навыки
 
+  - title: Technical skills tags
+    layout: text
+    content: |
+      **Programming Languages**: Golang, Lua, PHP
+
+      **Databases**: MySQL, PostgreSQL, MongoDB, ClickHouse, Tarantool
+
+      **IaC**: Chef, Ansible, Packer, Terraform, Terragrunt
+
+      **Containers**: Docker, Kubernetes (self-hosted & management)
+
+      **Monitoring**: VictoriaMetrics, Prometheus, Grafana, Amixr
+
+      **Atlassian stack**: Jira, Confluence, Bitbucket, Crowd
+
+      *CI/CD**: GitLab, Bamboo, GitHub Actions
+
+      **OS**: FreeBSD, CentOS, CoreOS
+
+      **Queues**: Rabbitmq, Kafka, Beanstalkd
+
+      **Security**: Vault, Keycloak,  Notary, Trivy, OPA, Network Policy
+
+      **Networking**: OpenVPN, WireGuard, Calico, Cilium, Cisco, Mikrotik
+
+      **Cloud Providers**: AWS, Hetzner (Baremetal, Cloud), Digitalocean (DB's, k8s, LB), Vultr, Online.net, Selectel
 
 # Footer
 footer_show_references: false
