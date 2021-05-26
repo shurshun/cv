@@ -192,7 +192,7 @@ content:
 
       **Atlassian stack**: Jira, Confluence, Bitbucket, Crowd
 
-      *CI/CD**: GitLab, Bamboo, GitHub Actions
+      **CI/CD**: GitLab, Bamboo, GitHub Actions
 
       **OS**: FreeBSD, CentOS, CoreOS
 
