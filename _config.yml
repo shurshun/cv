@@ -1,0 +1,190 @@
+# Site
+repository: shurshun/cv
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Корвяков Андрей
+title: Senior DevOps Engineer
+phone: +7(926)303-90-38
+email: korvyakov.a.m@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+github_username:  shurshun
+instagram_username: andrey_shursh
+linkedin_username: korviakov-andrey
+
+
+additional_links: []
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "UA-144686972-1"
+# google_analytics: "UA-144686972-1"
+
+# About Section
+about_title: Обо мне
+about_profile_image: images/profile.jpg
+about_content: |
+  DevOps Engineer с более чем 15-ти летним стажем в IT индустрии и хорошим *nix бэкграундом.
+  Обладаю обширным опытом проектирования архитектуры и построения инфраструктуры для различных проектов.
+  Если считаю что поставленное ТЗ не оптимально и можно сделать лучше, обязательно скажу об этом и предложу свою реализацию.
+  Деятельный, независимый, со способностью предсказывать последствия решений не смотря на запрет магии вне Хогвартса ;)
+
+content:
+  - title: Опыт работы
+    layout: list
+    content:
+      - layout: left
+        title: Adsteroid
+        link: https://adsteroid.pro
+        link_text: adsteroid.pro
+        sub_title: Senior DevOps Engineer
+        caption: 2018 - по настоящее время
+        quote: >
+          An internet media company serving over 1 billion geo-targeted ad impressions per month.
+        description: |
+          * Участие в разработке архитектуры сервиса под ~30k rps, разработка инфраструктуры и её имплементация, а также сопровождение проекта
+          * Провел проект через несколько технологических этапов: Chef + Capistrano + Consul, docker-compose + Bamboo + Consul, Kubernetes + Gitlab CI/CD
+          * Развернул Clickhouse кластер (~11Tb) в Kubernetes с репликацией, шардированием, мониторингом и бэкапами
+          * Развернул Tarantool vshard кластер (~30k rps) в Kubernetes c самописным helm чартом
+          * Поддержка Kubernetes кластера с более чем 30 baremetal нодами
+          * Разработал и внедрил smart distributed rate limiter для nginx-ingress (Lua) с возможностью динамического распределения полосы по ежеминутно обновляющимся условиям от ядра системы и общими лимитами задаваемыми извне
+          * Сквозная интеграция Vault во все сервисы для хранения чувствительных данных
+
+      - layout: left
+        title: Raison
+        link: https://raison.ai
+        link_text: raison.ai
+        sub_title: Senior DevOps Engineer
+        caption: 2018 - по настоящее время
+        quote: >
+          A unique platform for operations with investments and personal finance, using algorithms of artificial intelligence.
+        description: |
+          * Участие в разработке архитектуры сервиса, проектирование инфраструктуры и её имплементация
+          * Реализация закрытого контура c шифрованной межкластерной mesh сетью
+          * Концепт и реализация удаленного защищенного распределенного хранилища для чувствительных данных
+          * Разработал проактивный балансировщик для хранилищ (OpenResty, Lua)
+          * Реализация прозрачного и удобного CI/CD для более чем 20 микросервисов (Golang, Python, NodeJS, PHP: Laravel, Symfony)
+          * Реализовал сбор логов и их хранение в s3, а также отказоустойчивую систему мониторинга на базе VictoriaMetrics
+          * Интеграция DevSecOps практик: Vault, Security scanning, Image signing, Network policies, etc...
+          * Настройка, поддержка и мониторинг Blockchain нод для Ethereum, Bitcoin, etc...
+
+      - layout: left
+        title: NetBox
+        link: https://netbox.ru
+        link_text: netbox.ru
+        sub_title: Senior DevOps Engineer
+        caption: 2013 - по настоящее время
+        quote: >
+          Research. Innovation. Development.
+        description: |
+          * Развернул и настроил self-hosted Atlassian стэк: Jira, Confluence, BitBucket, Bamboo, Crowd. С дальнейшей мигрирацией на связку Jira, Confluence, Keycloak, Gitlab с поддержкой SSO
+          * Реализовал проект бездисковой майнинг-фермы на 160 машин:
+            * Реализация сетевой загрузки риг всего с двумя мастерами
+            * Быстрое переключение между версиями OS и драйверами
+            * Написание  бэкэнда для регистрации и отдачи конфигураций риг  (Lua, Tarantool)
+            * Экспортер для метрик видеокарт (Golang)
+            * Разработка и создание устройств для удаленного контроля риг и их перезагрузки (kvm собственной разработки)
+            * Брокер статусов kvm из mqqt в tarantool в виде in-app приложения
+            * Управляющий софт работающий как по http так и по mqtt для управления kvm (Golang)
+            * Доработка системы управления kvm и создание POC на esp8266: обновление по воздуху, устойчивы к потере питания, работают в кластере из 5 устройств по 5 независимых линий, уменьшение времени опроса одной kvm с 450ms (в случае с софтовой обвязкой) до 9,5ms, отображение информации о линиях на дисплее
+            * Настройка 3 независимых интернет-каналов с автопереключением (Mikrotik)
+          * Написал утилиту для сбора данных обо всех доменах из ingress ресурсов Kubernetes кластера и отдачей метрик с информацией о них в prometheus формате: [domain-harvester](https://github.com/shurshun/domain-harvester) (Golang)
+          * Настройка и поддержка CDN на слабом железе с трафиком до 5Гбит/с
+          * Написал софт под Android свисток для отображения странички с графиками на TV с управлением через api (Java)
+          * Проектирование и поддержка DNS кластера на powerdns (lua, redis backend) с более чем 2к rps/инстанс
+          * Написал api для обработки событий (php):
+            * Вебхуки Jira: кто на кого перевел тикет/информация об изменениях 
+            * Вебхуки BitBucket: информация по коммитам и измененным файлам
+            * Нотификации о выкатках через capistrano с отметкой в graphite (самописный модуль для Сapistrano, Ruby)
+          * Построение системы приема метрик на базе очередей, openresty, lua. А также написал брокер метрик в кластер MongoDB (Golang) [metrics-bridge](https://github.com/shurshun/metrics-bridge-example)
+          * Внедрил Chef с написанием множества кукбуков для более чем сотни сервисов, с автоматическим мониторингом всех компонентов при добавлении роли проекта на инстанс
+
+      - layout: left
+        title: Poisk-podbor
+        link: https://poisk-podbor.ru
+        link_text: poisk-podbor.ru
+        sub_title: Системный Администратор
+        caption: 2010 - 2013
+        quote: >
+          A place where sellers show the products they offer and customers find what they are looking for.
+        description: |
+          * Выбор и закупка оборудования (сервера, сетевое оборудование, дисковые полки)
+          * Настроил площадки в разных зонах доступности на своем железе
+          * Настройка и поддержка кластера на proxmox (~15 baremetal servers)
+          * Автоматизация поднятия новых инстансов: bootstraping VM's by Chef, Deploy code, Autosetup MySQL as RO replica
+          * Настройка и поддержка bonding/acl/vlan/nat/multiwan на оборудовании Cisco
+          * Стэк проекта: Apache + mod_perl, Nginx, MySQL
+          * Балансировщики трафика с Carp/Vrrp
+          * Поддержка работы офисной IT инфраструктуры
+          * Настройка и поддержка аналоговой и цифровой АТС для офиса
+          * Миграция платформы с FreeBSD на Linux
+          * Мониторинг проекта с автодисковери (Munin)
+
+      - layout: left
+        title: Mr. Doors
+        link: https://mrdoors.ru
+        link_text: mrdoors.ru
+        sub_title: Младший Системный Администратор
+        caption: 2007 - 2010
+        quote: >
+          Мебель на заказ Mr.Doors – это уникальные интерьерные решения для дома и офиса.
+        description: |
+          * Консультация и техническая поддержка пользователей
+          * Устранение неисправностей в компьютерном оборудовании
+
+      - layout: left
+        title: Corbina Telecom
+        link: http://corbina-telecom.ru/
+        link_text: corbina-telecom.ru
+        sub_title: Специалист Технической Поддержки
+        caption: 2006 - 2007
+        quote: >
+          Provide Internet broadband access services.
+        description: |
+          * Консультация и техническая поддержка клиентов
+
+      - layout: left
+        title: Own network / Trancom
+        link: http://www.trancom.ru/
+        link_text: trancom.ru
+        sub_title: Младший Системный Администратор
+        caption: 2004 - 2006
+        quote: >
+          Provide Internet broadband access services.
+        description: |
+          * Консультация и техническая поддержка абонентов
+          * Прокладка локальной сети и устранение неисправностей
+          * Выбор, закупка и настройка системы спутникового интернета с асимметричным доступом
+          * Администрирование развлекательных локальных серверов на FreeBSD (ftp, irc, web) и шлюза для интернета
+
+  - title: Сертификаты
+    layout: text
+    content: |
+      * [GitLab Certified Associate](https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ)
+
+  - title: Summary
+    layout: text
+    content: |
+      English: B1-B2. Беру частные уроки, постоянно совершенствую свои скиллы
+
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
