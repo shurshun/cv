@@ -24,9 +24,7 @@ additional_links: []
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-gtag: "UA-144686972-1"
-# google_analytics: "UA-144686972-1"
+gtm: "GTM-NQDXS9D"
 
 # About Section
 about_title: Обо мне
