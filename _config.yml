@@ -72,7 +72,22 @@ content:
           * Реализация прозрачного и удобного CI/CD для более чем 20 микросервисов (Golang, Python, NodeJS, PHP: Laravel, Symfony)
           * Реализовал сбор логов и их хранение в s3, а также отказоустойчивую систему мониторинга на базе VictoriaMetrics
           * Интеграция DevSecOps практик: Vault, Security scanning, Image signing, Network policies, etc...
-          * Настройка, поддержка и мониторинг Blockchain нод для Ethereum, Bitcoin, etc...
+          * Настройка, поддержка и мониторинг Blockchain нод (Ethereum, Bitcoin, etc...)
+
+      - layout: left
+        title: Netbox.Global
+        link: https://netbox.global
+        link_text: netbox.global
+        sub_title: Senior DevOps Engineer
+        caption: 2020 - по настоящее время
+        quote: >
+          The first decentralized blockchain backed web browser.
+        description: |
+          * Развертывание, поддержка и мониторинг Blockchain нод проекта (NBX Coin)
+          * Миграция сервисов на более современную и отказоустойчивую гибридную инфраструктуру используя IaC
+          * Постороение подходящего CI/CD для множества микросервисов
+          * Реализовал централизованный сбор логов и их хранение в s3, а также отказоустойчивую систему мониторинга на базе VictoriaMetrics
+          * Интеграция DevSecOps практик: Vault, Security scanning, Network policies, etc...
 
       - layout: left
         title: NetBox
@@ -175,10 +190,10 @@ content:
     content: |
       **English**: B1-B2. Беру частные уроки, постоянно совершенствую языковые навыки
 
-  - title: Technical skills tags
+  - title: Technical skill tags
     layout: text
     content: |
-      **Programming Languages**: Golang, Lua, PHP
+      **Programming Languages**: Golang, Lua, PHP, Ruby
 
       **Databases**: MySQL, PostgreSQL, MongoDB, ClickHouse, Tarantool
 
@@ -186,7 +201,9 @@ content:
 
       **Containers**: Docker, Kubernetes (self-hosted & management)
 
-      **Monitoring**: VictoriaMetrics, Prometheus, Grafana, Amixr
+      **Monitoring**: VictoriaMetrics stack (clustered), Prometheus, Grafana, Sentry, Amixr, Graphite
+
+      **Logging**: Loki/Promtail, EFK stack, Banzai Cloud Logging operator
 
       **Atlassian stack**: Jira, Confluence, Bitbucket, Crowd
 
@@ -194,13 +211,17 @@ content:
 
       **OS**: FreeBSD, CentOS, CoreOS
 
-      **Queues**: Rabbitmq, Kafka, Beanstalkd
+      **Queues**: RabbitMQ, Kafka (basics), Beanstalkd
 
-      **Security**: Vault, Keycloak,  Notary, Trivy, OPA, Network Policy
+      **Security**: Vault (KV, DB creds., PKI. Auth. using Kubernetes, OpenID, JWT), Keycloak, Notary, Trivy, OPA, Network Policy
 
-      **Networking**: OpenVPN, WireGuard, Calico, Cilium, Cisco, Mikrotik
+      **Networking**: OpenVPN, WireGuard, BGP, Calico, Cilium, Linkerd, Cisco, Mikrotik
 
-      **Cloud Providers**: AWS, Hetzner (Baremetal, Cloud), Digitalocean (DB's, k8s, LB), Vultr, Online.net, Selectel
+      **Cloud Providers**: AWS, Hetzner (Baremetal, Cloud), DigitalOcean (DB's, Kubernetes, LB), Vultr, Online.net, Selectel, etc.
+
+      **CDN & DDoS Protection**: Cloudflare, Cloudfront, Qrator
+
+      **Blockchain**: Ethereum (openethereum), Bitcoin
 
 # Footer
 footer_show_references: false
