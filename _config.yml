@@ -110,7 +110,7 @@ content:
             * Built the ability of quick switching between versions of OS and Drivers for graphic cards
             * Designed and developed backend for rig registration and configuring (Tarantool, Lua)
             * Developed metrics exporter for graphic cards to work with Prometheus (Golang)
-            * Designed and developed KVM device in purpose of remote control motherboards ([my own design](/images/kvm.jpg))
+            * Designed and developed KVM device in purpose of remote control motherboards ([my own design](https://raw.githubusercontent.com/shurshun/cv/main/images/kvm.jpg))
             * Developed KVM status broker from MQTT to Tarantool made into the form of in-app (Lua)
             * Developed KVM control service with REST API and MQTT support (Golang)
             * Upgraded KVM control system by built POC based on ESP8266: OTA, resistance to power failure, work in pairs of five devices with five independed lines. Significantly reduced KVM polling time from 450ms to 9,5ms
@@ -194,6 +194,7 @@ content:
     layout: text
     content: |
       **English**: B1-B2. I take private classes, constantly honing my language skills
+
       **Russian**: Native
 
   - title: Technical skills
