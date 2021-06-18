@@ -94,6 +94,7 @@ content:
           * Integrated logs collection and its storing in S3 and Loki for quick access as well
           * Built a fault-tolerant and scalable monitoring system based on VictoriaMetrics cluster
           * Implemented DevSecOps practices and tools: Vault, Security scanning, Network policies, etc.
+          * Developed CI/CD for LinuxKit to deploy microservices as immutable VM's into Hetzner Cloud, AWS & Vultr
 
       - layout: left
         title: NetBox
@@ -204,7 +205,7 @@ content:
 
       **Databases**: MySQL, PostgreSQL, MongoDB, ClickHouse, Tarantool
 
-      **IaC**: Chef, Ansible, Packer, Terraform, Terragrunt
+      **IaC**: Chef, Ansible, Packer, Terraform, Terragrunt, LinuxKit
 
       **Containers**: Docker, Kubernetes (self-hosted & management)
 
