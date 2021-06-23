@@ -207,6 +207,8 @@ content:
 
       **IaC**: Chef, Ansible, Packer, Terraform, Terragrunt, LinuxKit
 
+      **Repository managers**: Artifactory, Nexus
+
       **Containers**: Docker, Kubernetes (self-hosted & management)
 
       **Monitoring**: VictoriaMetrics stack (clustered), Prometheus, Grafana, Sentry, Amixr, Graphite
