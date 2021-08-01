@@ -187,9 +187,9 @@ content:
   - title: Certificates
     layout: text
     content: |
-      * **GitLab Certified Associate**: [approved](https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ)
-      * **Certified Kubernetes Security Specialist**: Preparing for the exam
-      * **AWS Certified Solutions Architect Associate**: Preparing for the exam
+      * **GitLab Certified Associate**: [verify](https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ)
+      * **AWS Certified Solutions Architect Associate**: [verify](https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb)
+      * **Certified Kubernetes Security Specialist**: Pending...
 
   - title: Languages
     layout: text
@@ -227,7 +227,7 @@ content:
 
       **Networking**: OpenVPN, WireGuard, BGP, Calico, Cilium, Linkerd, Cisco, Mikrotik
 
-      **Cloud Providers**: AWS, Hetzner, Hetzner Cloud, DigitalOcean (DB's, Kubernetes, LB, etc.), Vultr, Online.net, Selectel, etc.
+      **Cloud Providers**: AWS, Hetzner, Hetzner Cloud, DigitalOcean, Vultr, Online.net, Selectel, etc.
 
       **CDN & DDoS Protection**: Cloudflare, Cloudfront, Qrator
 
