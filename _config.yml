@@ -189,7 +189,32 @@ content:
     content: |
       * **GitLab Certified Associate**: [verify](https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ)
       * **AWS Certified Solutions Architect Associate**: [verify](https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb)
-      * **Certified Kubernetes Security Specialist**: Pending...
+      * **Certified Kubernetes Security Specialist**: pending...
+
+  # - title: Certificates
+  #   layout: text
+  #   content: |
+  #     <ul class="icons layout layout-left">
+  #       <li>
+  #         <a target="_blank" href="https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb" class="button button--sacnite button--round-l">
+  #           <i class="fab fa-aws" title="AWS Certified Solutions Architect Associate"></i>
+  #         </a>
+  #         <p><b>AWS Certified Solutions Architect Associate</b></p>
+  #       </li>
+  #       <li>
+  #         <a target="_blank" href="https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ" class="button button--sacnite button--round-l">
+  #           <i class="fab fa-gitlab" title="Gitlab Certified Associate"></i>
+  #         </a>
+  #         <p><b>GitLab Certified Associate</b></p>
+  #       </li>
+  #       <li>
+  #         <a target="_blank" href="#" class="button button--sacnite button--round-l">
+  #           <i class="fas fa-dharmachakra" title="Certified Kubernetes Security Specialist"></i>
+  #         </a>
+  #         <p><b>Certified Kubernetes Security Specialist</b>: pending...</p>
+  #       </li>
+  #     </ul>
+
 
   - title: Languages
     layout: text
@@ -237,7 +262,7 @@ content:
 footer_show_references: false
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
