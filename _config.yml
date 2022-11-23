@@ -6,9 +6,8 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Korviakov Andrey
+name: &name Korviakov Andrey
 title: Senior DevOps Engineer
-phone: +7(926)303-90-38
 email: korvyakov.a.m@gmail.com
 
 # Dark Mode (true/false/never)
@@ -20,7 +19,10 @@ instagram_username: andrey_shursh
 linkedin_username: korviakov-andrey
 
 
-additional_links: []
+additional_links:
+  - title: Telegram link
+    icon: fab fa-telegram
+    url: https://t.me/shursh
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -30,7 +32,7 @@ gtm: "GTM-NQDXS9D"
 about_title: Summary
 about_profile_image: images/profile.jpg
 about_content: |
-  Around 15+ years of experience in IT industry with strong *nix background and an every day learning habit.
+  Around 16+ years of experience in IT industry with strong *nix background and an every day learning habit.
   Extensive experience in designing architecture and building infrastructure for numerous projects.
   If I think the provided task is not optimal and can be done better, I'll definitely say so and will offer my own implementation.
   Stirring, independence, with the ability to predict despite the prohibition to use magic outside Hogwarts ;)
@@ -39,25 +41,16 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
-        title: Adsteroid
-        link: https://adsteroid.pro
-        link_text: adsteroid.pro
-        sub_title: Senior DevOps Engineer
-        caption: 2018 - Present
-        quote: >
-          An internet media company serving over 1 billion geo-targeted ad impressions per month.
-        description: |
-          * Developed architecture, designed and implemented infrastructure, as well as support of the project (~30k rps)
-          * Took the project through several technological steps: Chef + Capistrano + Consul, docker-compose + Bamboo + Consul, Kubernetes + Gitlab CI/CD
-          * Deployed Clickhouse cluster to Kubernetes with replication, sharding, monitoring and backups with my own Helm chart (~11Tb)
-          * Deployed Tarantool vshard cluster to Kubernetes with a Helm chart written by me (~30k rps)
-          * Designed CI/CD pipelines from scratch for a bunch of microservices (Golang, NodeJS, PHP: Laravel, Symfony)
-          * Developed and implemented smart distributed rate limiter for NGINX Ingress controller which gives the ability to divide precisely the global RPS limit per sub-stream and to change ratios according to conditions updated every minute (Lua)
-          * Experienced in analyzing and resolving compilation and deployment errors related to code development, branching, merging and building of source code
-          * End-to-end integration of Vault across all services for sensitive data storage
-          * Implemented CentOS installation using kick start and further hardening via Ansible
-          * Deployed and managing Kubernetes cluster on more than 30 bare-metal servers
+      # - layout: left
+      #   title: Coins.ph
+      #   link: https://coins.ph
+      #   link_text: coins.ph
+      #   sub_title: Senior DevOps Engineer
+      #   caption: 2021 - Present
+      #   quote: >
+      #     Coins.ph is on a mission to create an open financial system by providing everyone easy access to Web3 and digital assets.
+      #   description: |
+      #     * Develop and maintain cloud infrastructures to meet reliability and scalability demands
 
       - layout: left
         title: Raison
@@ -80,11 +73,31 @@ content:
           * Configured and covered Blockchain nodes with monitoring (Ethereum, Bitcoin, Celo)
 
       - layout: left
+        title: Adsteroid
+        link: https://adsteroid.pro
+        link_text: adsteroid.pro
+        sub_title: Senior DevOps Engineer
+        caption: 2018 - Present
+        quote: >
+          An internet media company serving over 1 billion geo-targeted ad impressions per month.
+        description: |
+          * Developed architecture, designed and implemented infrastructure, as well as support of the project (~30k rps)
+          * Took the project through several technological steps: Chef + Capistrano + Consul, docker-compose + Bamboo + Consul, Kubernetes + Gitlab CI/CD
+          * Deployed Clickhouse cluster to Kubernetes with replication, sharding, monitoring and backups with my own Helm chart (~11Tb)
+          * Deployed Tarantool vshard cluster to Kubernetes with a Helm chart written by me (~30k rps)
+          * Designed CI/CD pipelines from scratch for a bunch of microservices (Golang, NodeJS, PHP: Laravel, Symfony)
+          * Developed and implemented smart distributed rate limiter for NGINX Ingress controller which gives the ability to divide precisely the global RPS limit per sub-stream and to change ratios according to conditions updated every minute (Lua)
+          * Experienced in analyzing and resolving compilation and deployment errors related to code development, branching, merging and building of source code
+          * End-to-end integration of Vault across all services for sensitive data storage
+          * Implemented CentOS installation using kick start and further hardening via Ansible
+          * Deployed and managing Kubernetes cluster on more than 30 bare-metal servers
+
+      - layout: left
         title: Netbox.Global
         link: https://netbox.global
         link_text: netbox.global
         sub_title: Senior DevOps Engineer
-        caption: 2020 - Present
+        caption: 2020 - 2021
         quote: >
           The first decentralized blockchain backed web browser.
         description: |
@@ -101,7 +114,7 @@ content:
         link: https://netbox.ru
         link_text: netbox.ru
         sub_title: Senior DevOps Engineer
-        caption: 2013 - Present
+        caption: 2013 - 2021
         quote: >
           Research. Innovation. Development.
         description: |
@@ -149,7 +162,7 @@ content:
 
       - layout: left
         title: Mr. Doors
-        link: https://mrdoors.ru
+        link: https://www.mrdoors.ru/
         link_text: mrdoors.ru
         sub_title: Junior System Administrator
         caption: 2007 - 2010
@@ -187,31 +200,29 @@ content:
   - title: Certificates
     layout: text
     content: |
-      * **GitLab Certified Associate**: [verify](https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ)
-      * **AWS Certified Solutions Architect Associate**: [verify](https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb)
-      * **Certified Kubernetes Security Specialist**: pending...
+      * **AWS Certified Solutions Architect – Associate**: [verify](https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb)
+      * **GitLab Certified - Associate**: [verify](https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ)
 
   # - title: Certificates
   #   layout: text
   #   content: |
-  #     <ul class="icons layout layout-left">
-  #       <li>
+  #     <ul class="icons" style="text-align: center;">
+  #       <li class="col-md-12">
   #         <a target="_blank" href="https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb" class="button button--sacnite button--round-l">
-  #           <i class="fab fa-aws" title="AWS Certified Solutions Architect Associate"></i>
+  #           <i class="fab fa-aws" title="AWS Certified Solutions Architect – Associate"></i>
   #         </a>
-  #         <p><b>AWS Certified Solutions Architect Associate</b></p>
+  #         <p style="text-align: center;"><b>AWS Certified Solutions Architect – Associate</b></p>
   #       </li>
-  #       <li>
+  #       <li class="col-md-12">
   #         <a target="_blank" href="https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ" class="button button--sacnite button--round-l">
   #           <i class="fab fa-gitlab" title="Gitlab Certified Associate"></i>
   #         </a>
-  #         <p><b>GitLab Certified Associate</b></p>
+  #         <p style="text-align: center;"><b>GitLab Certified Associate</b></p>
   #       </li>
-  #       <li>
+  #       <li class="col-md-12">
   #         <a target="_blank" href="#" class="button button--sacnite button--round-l">
   #           <i class="fas fa-dharmachakra" title="Certified Kubernetes Security Specialist"></i>
-  #         </a>
-  #         <p><b>Certified Kubernetes Security Specialist</b>: pending...</p>
+  #         </a><p style="text-align: center;"><b>Certified Kubernetes Security Specialist</b>: pending...</p>
   #       </li>
   #     </ul>
 
@@ -219,44 +230,50 @@ content:
   - title: Languages
     layout: text
     content: |
-      **English**: B1-B2. I take private classes, constantly honing my language skills
+      **English**: Upper-Intermediate. I take private classes, constantly honing my language skills
 
       **Russian**: Native
 
   - title: Technical skills
     layout: text
     content: |
-      **Programming Languages**: Golang, Lua, PHP, Ruby
+      **Programming Languages**: Golang, Lua, Python, Ruby, PHP
 
-      **Databases**: MySQL, PostgreSQL, MongoDB, ClickHouse, Tarantool
+      **AWS**: EKS, EC2, ELB, RDS, S3, SQS, Lamda, SSO, IRSA, [etc.](https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb)
 
-      **IaC**: Chef, Ansible, Packer, Terraform, Terragrunt, LinuxKit
+      **Databases**: PostgreSQL, MySQL, ClickHouse, Tarantool, Redis, MongoDB
 
-      **Repository managers**: Artifactory, Nexus
+      **IaC**: Terraform, Terragrunt, Packer, Ansible, Chef
 
-      **Containers**: Docker, Kubernetes (self-hosted & management)
+      **Repository managers**: Nexus, Artifactory
 
-      **Monitoring**: VictoriaMetrics stack (clustered), Prometheus, Grafana, Sentry, Amixr, Graphite
+      **Containers**: Docker, Kubernetes (Self-hosted, EKS, DO Kubernetes)
+
+      **Monitoring**: Pagerduty, VictoriaMetrics (clustered), Prometheus, Grafana, Sentry, Graphite
 
       **Logging**: Loki/Promtail, EFK stack, Banzai Cloud Logging operator
 
       **Atlassian stack**: Jira, Confluence, Bitbucket, Crowd
 
-      **CI/CD**: GitLab, Bamboo, GitHub Actions
+      **CI/CD**: GitLab, GitHub Actions, Bamboo
 
-      **OS**: FreeBSD, CentOS, CoreOS
+      **OS**: Ubuntu, CentOS, CoreOS, LinuxKit, FreeBSD
 
-      **Queues**: RabbitMQ, Kafka (basics), Beanstalkd
+      **Queues**: RabbitMQ, Kafka
 
-      **Security**: Vault (KV, DB creds., PKI. Auth. using Kubernetes, OpenID, JWT), Keycloak, Notary, Trivy, OPA, Network Policy
+      **Security**: Vault (KV, DB creds., PKI Auth. using Kubernetes, OpenID, JWT), Keycloak, Trivy, OPA, Network Policy
 
-      **Networking**: OpenVPN, WireGuard, BGP, Calico, Cilium, Linkerd, Cisco, Mikrotik
+      **Networking**: OpenVPN (cloud & hosted), WireGuard, Calico, Cilium, Cisco, Mikrotik, UniFi
 
       **Cloud Providers**: AWS, Hetzner, Hetzner Cloud, DigitalOcean, Vultr, Online.net, Selectel, etc.
 
       **CDN & DDoS Protection**: Cloudflare, Cloudfront, Qrator
 
       **Blockchain**: Ethereum (OpenEthereum), Bitcoin, Celo, Netbox.Coin
+
+      **Virtualization**: VirtualBox, Proxmox
+
+      **Web Servers**: Openresty (nginx), Apache
 
 # Footer
 footer_show_references: false
@@ -270,3 +287,13 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+author:
+  name: *name
+  url: https://www.linkedin.com/in/korviakov-andrey/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - LICENSE
