@@ -235,7 +235,7 @@ content:
 
       **OS**: Ubuntu, CentOS, CoreOS, LinuxKit, FreeBSD
 
-      **Queues**: RabbitMQ, Kafka
+      **Queues**: RabbitMQ, Kafka, MQTT
 
       **Security**: Vault (KV, DB creds., PKI Auth. using Kubernetes, OpenID, JWT), Keycloak, Trivy, OPA, Network Policy
 
