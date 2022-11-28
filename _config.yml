@@ -32,7 +32,7 @@ gtm: "GTM-NQDXS9D"
 about_title: Summary
 about_profile_image: images/profile.jpg
 about_content: |
-  Around 16+ years of experience in IT industry with strong *nix background and an every day learning habit.
+  Around 16+ years of experience in IT industry with strong *nix background and an everyday learning habit.
   Extensive experience in designing architecture and building infrastructure for numerous projects.
   If I think the provided task is not optimal and can be done better, I'll definitely say so and will offer my own implementation.
   Stirring, independence, with the ability to predict despite the prohibition to use magic outside Hogwarts ;)
@@ -90,7 +90,7 @@ content:
           * Experienced in analyzing and resolving compilation and deployment errors related to code development, branching, merging and building of source code
           * End-to-end integration of Vault across all services for sensitive data storage
           * Implemented CentOS installation using kick start and further hardening via Ansible
-          * Deployed and managing Kubernetes cluster on more than 30 bare-metal servers
+          * Deployed and managed Kubernetes cluster on more than 30 bare-metal servers
 
       - layout: left
         title: Netbox.Global
