@@ -41,16 +41,22 @@ content:
   - title: Experience
     layout: list
     content:
-      # - layout: left
-      #   title: Coins.ph
-      #   link: https://coins.ph
-      #   link_text: coins.ph
-      #   sub_title: Senior DevOps Engineer
-      #   caption: 2021 - Present
-      #   quote: >
-      #     Coins.ph is on a mission to create an open financial system by providing everyone easy access to Web3 and digital assets.
-      #   description: |
-      #     * Develop and maintain cloud infrastructures to meet reliability and scalability demands
+      - layout: left
+        title: Coins.ph
+        link: https://coins.ph
+        link_text: coins.ph
+        sub_title: Senior DevOps Engineer
+        caption: 2021 - Present
+        quote: >
+          Coins.ph is on a mission to create an open financial system by providing everyone easy access to Web3 and digital assets.
+        description: |
+          * Developed and maintained cloud infrastructures to meet reliability and scalability demands
+          * Proposed, performed, and supported the transition from KIAM to IRSA on the EKS cluster for a large majority of the applications
+          * Designed and built a High Availability setup with proactive monitoring for the partner's VPN solution
+          * Performed a bunch of majority updates of numerous EKS clusters as well as all their dependencies
+          * Developed from scratch terraform code for user management and integrations of numerous applications with OKTA
+          * Performed smooth migration of the overlay network in EKS on eBPF
+          * Proposed a bunch of improvements to the internal utilities and CI which as a result significantly reduced their execution time
 
       - layout: left
         title: Raison
@@ -71,6 +77,8 @@ content:
           * Built a fault-tolerant and scalable monitoring system based on VictoriaMetrics cluster
           * Implemented DevSecOps practices and tools: Vault, Security scanning, Image signing, Network policies, etc.
           * Configured and covered Blockchain nodes with monitoring (Ethereum, Bitcoin, Celo)
+          * Designed and developed a system as code based on terraform and Google Workspace with SSO functionality to manage users' rights
+          * Improved the public terraform provider for external service, eliminated bugs and built a CI to build it
 
       - layout: left
         title: Adsteroid
@@ -201,6 +209,7 @@ content:
     layout: text
     content: |
       * **AWS Certified Solutions Architect – Associate**: [verify](https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb)
+      * **AWS Certified DevOps Engineer - Professional**: [in progress...](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
       * **GitLab Certified - Associate**: [verify](https://badgr.com/public/assertions/jvREgGi8T3uOQ7KOzGWjrQ)
 
   - title: Languages
@@ -245,7 +254,7 @@ content:
 
       **CDN & DDoS Protection**: Cloudflare, Cloudfront, Qrator
 
-      **Blockchain**: Ethereum (OpenEthereum), Bitcoin, Celo, Netbox.Coin
+      **Blockchain nodes**: Ethereum, Bitcoin, Celo, Netbox.Coin
 
       **Virtualization**: VirtualBox, Proxmox
 
