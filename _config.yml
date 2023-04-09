@@ -224,7 +224,7 @@ content:
     content: |
       **Programming Languages**: Golang, Lua, Python, Ruby, PHP
 
-      **AWS**: EKS, EC2, ELB, RDS, S3, SQS, Lamda, SSO, IRSA, [etc.](https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb)
+      **AWS**: EKS, EC2, ELB, RDS, S3, SQS, Lambda, SSO, IRSA, [etc.](https://www.credly.com/badges/4ad1252b-8f28-4e1f-b473-6cc9f7346eeb)
 
       **Databases**: PostgreSQL, MySQL, ClickHouse, Tarantool, Redis, MongoDB
 
@@ -258,7 +258,7 @@ content:
 
       **Virtualization**: VirtualBox, Proxmox
 
-      **Web Servers**: Openresty (nginx), Apache
+      **Web Servers**: Openresty (nginx), Apache, Traefik
 
 # Footer
 footer_show_references: false
